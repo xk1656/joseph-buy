@@ -1,0 +1,420 @@
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.shortcut i.rotate:hover {
+    transform: rotate(180deg);
+}
+
+.sign-in {
+    cursor: pointer!important;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.focus ul {
+    width: 520%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 46px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-l {
+    left: 0;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #fff;
+}
+
+.news {
+    height: 158px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 15px;
+}
+
+.news-hd a {
+    padding-right: 10px;
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifestyle {
+    height: 208px;
+    width: auto;
+}
+
+.bargain {
+    height: 75px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.new-color {
+    color: #ff0000;
+}
+
+.first-new-color {
+    color: #c81623;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    line-height: 50%;
+}
+
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background: #5c5251;
+    text-align: center;
+}
+
+.recom-hd img {
+    margin-top: 30px;
+}
+
+.recom-hd h3 {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.recom-bd {
+    float: right;
+    width: 1000px;
+    height: 163px;
+}
+
+.recom-bd li {
+    float: left;
+    margin-top: 10px;
+    height: 145px;
+    width: 249px;
+    border-right: 1px solid #ccc;
+}
+
+.recom-bd img {
+    margin-left: 12.5%;
+    transition: all 0.5s;
+}
+
+.recom-bd img:hover {
+    transform: scale(1.05)
+}
+
+.recom-bd h5 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.recom-bd .last {
+    border-right: none;
+}
+
+.recom-bd .last-two img {
+    margin-left: 15.5%;
+}
+
+.recom-bd .last img {
+    margin-left: 18%;
+}
+
+.floor {
+    margin: 30px 0;
+}
+
+.box-hd {
+    color: #c81623;
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 22px;
+}
+
+.tab-list {
+    float: right;
+}
+
+.tab-list li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab-list li a {
+    font-size: 12px;
+}
+
+.tab-list .space {
+    width: 1px;
+    height: 12px;
+    margin: 9px 12px 0 12px;
+    background-color: #666666;
+}
+
+.box-bd {
+    height: 361px;
+}
+
+.tab-con li {
+    float: left;
+    height: 361px;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #fafafa;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.box-bd .last {
+    border-right: none;
+}
+
+.tab-con-item-1 {
+    height: 180px;
+    width: 219px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-item-2 {
+    height: 179px;
+    width: 219px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-item-3 {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.tab-con-list {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.fixedtool {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -715px;
+    width: 90px;
+}
+
+.fixedtool li {
+    border-bottom: 1px solid #ccc;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.first-box {
+    background-color: #c81623;
+    border-bottom: none!important;
+}
+
+.last-box {
+    background-color: #c81623;
+    border-bottom: none!important;
+    display: none;
+    color: #fff;
+}
+
+.first-box a {
+    color: #fff;
+}
+
+.dotted {
+    width: 8px;
+    height: 8px;
+    background-color: #09f;
+    border-radius: 50%;
+}
+
+div[class^="pulse"] {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    box-shadow: 0 0 12px #009dfd;
+    border-radius: 50%;
+    animation: pulse 2.4s linear infinite;
+}
+
+div.pulse2 {
+    animation-delay: .8s;
+}
+
+div.pulse3 {
+    animation-delay: 1.6s;
+}
+
+@keyframes pulse {
+    0% {}
+    70% {
+        /* transform: scale(5);  我们不要用scale 因为他会让 阴影变大*/
+        width: 40px;
+        height: 40px;
+        opacity: 1;
+    }
+    100% {
+        width: 70px;
+        height: 70px;
+        opacity: 0;
+    }
+}
+
+.mount-1 {
+    position: relative;
+    height: 336px;
+    margin-top: 50px;
+    background: url(../img/bg2.png) no-repeat;
+    animation: m1-move 400s linear infinite backwards;
+}
+
+.mount-2 {
+    position: relative;
+    height: 336px;
+    bottom: -175px;
+    background: url(../img/bg1.png) no-repeat;
+    animation: m1-move 80s linear infinite backwards;
+}
+
+.bear {
+    position: absolute;
+    display: block;
+    bottom: 45px;
+    width: 200px;
+    height: 100px;
+    background: url(../img/bear.png) no-repeat;
+    animation: bear 1s steps(8) infinite, move 4s forwards;
+}
+
+@keyframes bear {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1600px 0;
+    }
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 48%;
+    }
+}
+
+@keyframes m1-move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -2500px 0;
+    }
+}
